@@ -1,25 +1,12 @@
 <?php
 /**
- * CraftAutocomplete for Craft CMS 3.x
+ * Autocomplete for Craft CMS
  * https://github.com/putyourlightson/craft-autocomplete
- *
- * Provides autocompletion for Craft and plugins in Twig templates.
- *
- * This is intended to be used with the Symfony Plugin for PhpStorm:
- * https://plugins.jetbrains.com/plugin/7219-symfony-plugin
- *
- * Adapted from `FauxTwigExtension.php` by nystudio107 as documented in the article:
- * https://nystudio107.com/blog/auto-complete-craft-cms-3-apis-in-twig-with-phpstorm
- *
- * Place the file somewhere in your project (for example in the `config` directory)
- * or include it via PhpStorm Settings -> Include Path.
- * You never call it, it's never included anywhere via PHP directly nor does it affect other
- * classes or Twig in any way. But PhpStorm will index it, and think all those variables
- * are in every single template and thus allows you to use Intellisense auto completion.
+ * @copyright Copyright (c) PutYourLightsOn
  */
 
 /**
- * Class CraftAutocompleteVariable extends the actual Craft Variable, but with added properties
+ * Class AutocompleteVariable extends the actual Craft Variable, but with added properties
  * that reflect things that are added to the Craft Variable dynamically by
  * plugins or modules.
  *
@@ -50,21 +37,21 @@
  * @property \putyourlightson\sherlock\variables\SherlockVariable $sherlock
  * @property \putyourlightson\sprig\variables\SprigVariable $sprig
  */
-class CraftAutocompleteVariable extends \craft\web\twig\variables\CraftVariable
+class AutocompleteVariable extends \craft\web\twig\variables\CraftVariable
 {
 }
 
 /**
- * Class CraftAutocompleteTwigExtension provides a Twig extension for PhpStorm to index
+ * Class AutocompleteTwigExtension provides a Twig extension for PhpStorm to index
  * so that we get Intellisense auto-complete in our Twig templates.
  */
-class CraftAutocompleteTwigExtension extends \Twig\Extension\AbstractExtension implements \Twig\Extension\GlobalsInterface
+class AutocompleteTwigExtension extends \Twig\Extension\AbstractExtension implements \Twig\Extension\GlobalsInterface
 {
     public function getGlobals(): array
     {
         return [
             // Craft Variable
-            'craft' => new CraftAutocompleteVariable(),
+            'craft' => new AutocompleteVariable(),
             // Craft Elements
             'asset' => new \craft\elements\Asset(),
             'category' => new \craft\elements\Category(),
