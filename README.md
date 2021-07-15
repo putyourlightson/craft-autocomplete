@@ -16,8 +16,8 @@ composer require putyourlightson/craft-autocomplete
 ```
 
 Ensure that the Symfony is supported in your IDE.  
-    - PhpStorm: https://plugins.jetbrains.com/plugin/7219-symfony-plugin  
-    - VSCode: https://marketplace.visualstudio.com/items?itemName=TheNouillet.symfony-vscode
+- PhpStorm: https://plugins.jetbrains.com/plugin/7219-symfony-plugin  
+- VSCode: https://marketplace.visualstudio.com/items?itemName=TheNouillet.symfony-vscode
     
 Once your IDE indexes the `Autocomplete.php` file, autocompletion will immediately become available in your Twig templates.
 
