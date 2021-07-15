@@ -23,6 +23,8 @@ Once your IDE indexes the files, autocompletion for Craft and supported plugins 
 
 ![screenshot](https://user-images.githubusercontent.com/57572400/125784167-618830ae-e475-4faf-81d3-194ad7ce3a08.png)
 
+![screenshot-sprig](https://user-images.githubusercontent.com/57572400/125837278-4f8a0ac2-1159-420c-b692-6962c5f9661e.png)
+
 ## Contributing
 
 You can contribute autocompletion for third-party plugins (only) that are available in the plugin store. To do so, copy the `putyourlightson` folder and rename it to your GitHub username. Modify the classes accordingly and add a `@mixin` for your variable to the main `AutocompleteVariable` class.
