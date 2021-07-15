@@ -3,7 +3,7 @@
 
 # Autocomplete for Craft CMS
 
-Provides autocompletion for Craft and plugins in Twig templates. 
+Provides autocompletion for Craft CMS and plugins in Twig templates. 
  
 Adapted from `FauxTwigExtension.php` by nystudio107 as documented in the article:  
 https://nystudio107.com/blog/auto-complete-craft-cms-3-apis-in-twig-with-phpstorm
