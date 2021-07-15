@@ -6,7 +6,6 @@
 namespace putyourlightson\autocomplete;
 
 use craft\web\twig\variables\CraftVariable;
-use putyourlightson\blitz\variables\BlitzVariable;
 
 /**
  * Adds variables to the global Craft Variable.
