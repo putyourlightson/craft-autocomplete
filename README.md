@@ -15,7 +15,7 @@ Install the package using composer.
 composer require putyourlightson/craft-autocomplete
 ```
 
-Ensure that the Symfony is supported in your IDE.  
+Ensure that the appropriate Symfony plugin is installed and enabled in your IDE.  
 - PhpStorm: https://plugins.jetbrains.com/plugin/7219-symfony-plugin  
 - VSCode: https://marketplace.visualstudio.com/items?itemName=TheNouillet.symfony-vscode
     
@@ -25,7 +25,7 @@ Once your IDE indexes the `Autocomplete.php` file, autocompletion will immediate
 
 ## Contributing
 
-You can contribute autocompletion for third-party plugins that are available in the plugin store. To do so, please submit a pull request, ensuring you follow the structure already in place.  
+You can contribute autocompletion for third-party plugins that are available in the plugin store. To do so, copy the `plugins/putyourlightson` folder and rename it to your GitHub username. Modify the classes accordingly and submit a pull request, ensuring you follow the structure already in place.  
 
 ---
 
