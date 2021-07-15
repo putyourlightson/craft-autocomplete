@@ -5,7 +5,9 @@
 
 Provides autocompletion for Craft and plugins in Twig templates. 
  
-Adapted from `FauxTwigExtension.php` by nystudio107 as documented in the article: https://nystudio107.com/blog/auto-complete-craft-cms-3-apis-in-twig-with-phpstorm
+> Adapted from `FauxTwigExtension.php` by nystudio107 as documented in the article: https://nystudio107.com/blog/auto-complete-craft-cms-3-apis-in-twig-with-phpstorm
+
+![screenshot-sprig](https://user-images.githubusercontent.com/57572400/125837278-4f8a0ac2-1159-420c-b692-6962c5f9661e.png)
 
 ## Usage
 
@@ -22,8 +24,6 @@ Ensure that the appropriate Symfony plugin is installed and enabled in your IDE.
 Once your IDE indexes the files, autocompletion for Craft and supported plugins will immediately become available in your Twig templates.
 
 ![screenshot](https://user-images.githubusercontent.com/57572400/125784167-618830ae-e475-4faf-81d3-194ad7ce3a08.png)
-
-![screenshot-sprig](https://user-images.githubusercontent.com/57572400/125837278-4f8a0ac2-1159-420c-b692-6962c5f9661e.png)
 
 ## Contributing
 
