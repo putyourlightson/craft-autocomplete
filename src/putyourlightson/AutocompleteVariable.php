@@ -1,6 +1,6 @@
 <?php
 
-namespace putyourlightson\autocomplete\plugins\putyourlightson;
+namespace putyourlightson\autocomplete\putyourlightson;
 
 use craft\web\twig\variables\CraftVariable;
 use putyourlightson\blitz\variables\BlitzVariable;

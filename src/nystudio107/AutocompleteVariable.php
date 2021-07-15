@@ -1,6 +1,6 @@
 <?php
 
-namespace putyourlightson\autocomplete\plugins\nystudio107;
+namespace putyourlightson\autocomplete\nystudio107;
 
 use craft\web\twig\variables\CraftVariable;
 use nystudio107\pluginmanifest\variables\ManifestVariable;

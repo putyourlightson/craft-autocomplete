@@ -1,6 +1,6 @@
 <?php
 
-namespace putyourlightson\autocomplete\plugins\craftcms;
+namespace putyourlightson\autocomplete\craftcms;
 
 use craft\commerce\web\twig\CraftVariableBehavior;
 use craft\web\twig\variables\CraftVariable;

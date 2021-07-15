@@ -1,6 +1,6 @@
 <?php
 
-namespace putyourlightson\autocomplete\plugins\putyourlightson;
+namespace putyourlightson\autocomplete\putyourlightson;
 
 use putyourlightson\campaign\elements\CampaignElement;
 use putyourlightson\campaign\elements\ContactElement;

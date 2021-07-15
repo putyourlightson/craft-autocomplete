@@ -3,11 +3,9 @@
  * @copyright Copyright (c) nystudio107, PutYourLightsOn
  */
 
-namespace putyourlightson\autocomplete\plugins\craftcms;
+namespace putyourlightson\autocomplete\nystudio107;
 
-use craft\commerce\elements\Order;
-use craft\commerce\elements\Product;
-use craft\commerce\models\LineItem;
+use nystudio107\seomatic\variables\SeomaticVariable;
 use Twig\Extension\AbstractExtension;
 use Twig\Extension\GlobalsInterface;
 
@@ -19,11 +17,8 @@ class AutocompleteTwigExtension extends AbstractExtension implements GlobalsInte
     public function getGlobals(): array
     {
         return [
-            // Commerce
-            'cart' => new Order(),
-            'lineItem' => new LineItem(),
-            'order' => new Order(),
-            'product' => new Product(),
+            // Seomatic
+            'seomatic' => new SeomaticVariable(),
         ];
     }
 }
