@@ -2,7 +2,7 @@
     "name": "putyourlightson/craft-autocomplete",
     "description": "Provides autocompletion for Craft and plugins in Twig templates.",
     "version": "1.0.0",
-    "license": "mit",
+    "license": "MIT",
     "keywords": [
         "craft",
         "cms",
