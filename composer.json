@@ -10,7 +10,7 @@
         "twig"
     ],
     "require": {
-        "craftcms/cms": "^3.0.0",
+        "craftcms/cms": "^3.0.0"
     },
     "support": {
         "docs": "https://github.com/putyourlightson/craft-autocomplete"
