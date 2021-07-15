@@ -1,8 +1,14 @@
 <?php
 /**
  * Autocomplete for Craft CMS
+ *
+ * Provides autocompletion for Craft and plugins in Twig templates.
  * https://github.com/putyourlightson/craft-autocomplete
- * @copyright Copyright (c) PutYourLightsOn
+ *
+ * Adapted from `FauxTwigExtension.php` by nystudio107 as documented in the article:
+ * https://nystudio107.com/blog/auto-complete-craft-cms-3-apis-in-twig-with-phpstorm
+ *
+ * @copyright Copyright (c) nystudio107, PutYourLightsOn
  */
 
 /**
