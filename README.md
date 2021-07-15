@@ -9,7 +9,7 @@ This package is intended to be used with the Symfony Plugin for PhpStorm: https:
  
 Adapted from `FauxTwigExtension.php` by nystudio107 as documented in the article: https://nystudio107.com/blog/auto-complete-craft-cms-3-apis-in-twig-with-phpstorm
 
-## Installation
+## Usage
 
 Install the package using composer.
 
@@ -17,7 +17,9 @@ Install the package using composer.
 composer require putyourlightson/craft-autocomplete
 ```
 
-Once PhpStorm indexes the `Autocomplete.php` file, autocompletion will become available in your Twig templates.
+Once PhpStorm indexes the `Autocomplete.php` file in the `vendor` folder, autocompletion will immediately become available in your Twig templates.
+
+![screenshot](https://user-images.githubusercontent.com/57572400/125784167-618830ae-e475-4faf-81d3-194ad7ce3a08.png)
 
 ## Contributing
 
