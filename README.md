@@ -5,6 +5,8 @@
 
 Provides autocompletion for Craft CMS and plugins in Twig templates. 
  
+Currently works with **PhpStorm only**, although a hunt for a VSCode support is underway ;)
+
 Adapted from `FauxTwigExtension.php` by nystudio107 as documented in the article:  
 https://nystudio107.com/blog/auto-complete-craft-cms-3-apis-in-twig-with-phpstorm
 
@@ -18,9 +20,8 @@ Install the package using composer.
 composer require putyourlightson/craft-autocomplete
 ```
 
-Ensure that the appropriate Symfony plugin is installed and enabled in your IDE.  
-- PhpStorm: https://plugins.jetbrains.com/plugin/7219-symfony-plugin  
-- VSCode: https://marketplace.visualstudio.com/items?itemName=TheNouillet.symfony-vscode
+Ensure that the Symfony plugin is installed and enabled in PhpStorm:  
+https://plugins.jetbrains.com/plugin/7219-symfony-plugin
     
 Once your IDE indexes the files, autocompletion for Craft and supported plugins will immediately become available in your Twig templates.
 
