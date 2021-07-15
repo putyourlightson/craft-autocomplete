@@ -1,0 +1,23 @@
+{
+    "name": "putyourlightson/craft-autocomplete",
+    "description": "Provides autocompletion for Craft and plugins in Twig templates.",
+    "version": "1.0.0",
+    "license": "mit",
+    "keywords": [
+        "craft",
+        "cms",
+        "autocomplete",
+        "twig"
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0",
+    },
+    "support": {
+        "docs": "https://github.com/putyourlightson/craft-autocomplete"
+    },
+    "extra": {
+        "name": "Autocompletes  ",
+        "developer": "PutYourLightsOn",
+        "developerUrl": "https://putyourlightson.com/"
+    }
+}
