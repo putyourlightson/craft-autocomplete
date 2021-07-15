@@ -5,7 +5,7 @@
 
 Provides autocompletion for Craft CMS and plugins in Twig templates. 
  
-Currently works with **PhpStorm only**, although a hunt for a VSCode support is underway ;)
+Currently works with **PhpStorm only**, although a hunt for VSCode support is underway ;)
 
 Adapted from `FauxTwigExtension.php` by nystudio107 as documented in the article:  
 https://nystudio107.com/blog/auto-complete-craft-cms-3-apis-in-twig-with-phpstorm
