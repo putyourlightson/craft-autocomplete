@@ -33,7 +33,7 @@ You can contribute autocompletion for third-party plugins that are available in 
 
 Ensure you follow the structure already in place, test that autocompletion works and submit a pull request.
 
-![screenshot-mixins](https://user-images.githubusercontent.com/57572400/125917221-6086e90f-b9c9-4909-a64e-3ad20a710844.png)
+![screenshot-mixins](https://user-images.githubusercontent.com/57572400/125917480-cf4ca8f8-33ad-4f32-ae19-e05d8cfba7d9.png)
 
 ---
 
