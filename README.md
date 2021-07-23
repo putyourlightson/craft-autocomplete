@@ -27,6 +27,24 @@ Once your IDE indexes the files, autocompletion for Craft and supported plugins 
 
 ![screenshot](https://user-images.githubusercontent.com/57572400/125784167-618830ae-e475-4faf-81d3-194ad7ce3a08.png)
 
+### Adding Custom Variables
+
+You can add autocompletion for your own custom modules/plugins by creating a file called `AutocompleteVariable.php` and placing it inside any folder that PhpStorm will index (for example in the `/config` directory).
+
+```php
+<?php
+
+use craft\web\twig\variables\CraftVariable;
+use my\plugin\variables\MyVariable;
+
+/**
+ * Adds variables to the global Craft Variable.
+ *
+ * @mixin MyVariable
+ */
+class AutocompleteVariable extends CraftVariable { }
+```
+
 ## Contributing
 
 You can contribute autocompletion for third-party plugins that are available in the plugin store. To do so, copy the `src/putyourlightson` folder and rename it to your GitHub username. Modify the classes accordingly and add a `@mixin` for your variable to the main `AutocompleteVariable` class.

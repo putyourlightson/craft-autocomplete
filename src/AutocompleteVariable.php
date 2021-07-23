@@ -10,6 +10,7 @@ use craft\web\twig\variables\CraftVariable;
 /**
  * Adds variables to the global Craft Variable.
  *
+ * @mixin \AutocompleteVariable
  * @mixin craftcms\AutocompleteVariable
  * @mixin nystudio107\AutocompleteVariable
  * @mixin putyourlightson\AutocompleteVariable
