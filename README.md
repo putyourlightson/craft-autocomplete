@@ -10,7 +10,7 @@ Currently works with **PhpStorm only**, as VSCode does not support intellisense 
 Adapted from `FauxTwigExtension.php` by nystudio107 as documented in the article:  
 https://nystudio107.com/blog/auto-complete-craft-cms-3-apis-in-twig-with-phpstorm
 
-![screenshot-sprig](https://user-images.githubusercontent.com/57572400/125837278-4f8a0ac2-1159-420c-b692-6962c5f9661e.png)
+![demo](https://user-images.githubusercontent.com/57572400/126911028-7d7d06dd-c60f-42b9-ae42-95d5f078a229.gif)
 
 ## Usage
 
