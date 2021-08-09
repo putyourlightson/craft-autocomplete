@@ -1,7 +1,9 @@
 [![Stable Version](https://img.shields.io/packagist/v/putyourlightson/craft-autocomplete?label=stable)]((https://packagist.org/packages/putyourlightson/craft-autocomplete))
 [![Total Downloads](https://img.shields.io/packagist/dt/putyourlightson/craft-autocomplete)](https://packagist.org/packages/putyourlightson/craft-autocomplete)
 
-# Autocomplete for Craft CMS
+# Autocomplete for Craft CMS [DEPRECATED]
+
+### ⚠️ This package has been replaced by the superior [Craft Autocomplete](https://github.com/nystudio107/craft-autocomplete) as a collaboration between [PutYourLightsOn](https://putyourlightson.com/) and [nystudio107](https://nystudio107.com/).
 
 Provides autocompletion for Craft CMS and plugins in Twig templates. 
  
